@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Contato</title>
+	<link rel="stylesheet" type="text/css" href="_css/Contato.css">
+</head>
+<body>
+	<div id="corpo">
+		<!--Menu-->
+		<nav id="menu">
+			<ul>
+				<img id="logo" src="_images/logo.png">
+				<li><a class="link" href="index.html">Home</a></li>
+				<li><a class="link" href="QuemSomos.html">Quem somos</a></li>
+				<li><a class="link" href="vagas.html">Vagas</a></li> 
+				<li><a class="link" href="curriculos.html">Currículos</a></li>
+				<li><a class="link" href="Contato.html">Contato</a></li>
+			</ul>	
+		</nav>
+		<div class="container">
+			<div id="header">
+				<h2>Contato</h2>
+			</div>
+			
+			<hr>
+			<section id="content-left">
+				<h3 class="text-prenchido">Formulário de contato</h3>
+
+				<form>
+					<div>
+						<label for="departamento" class="label-bold">Com quem você deseja falar?</label><br>
+						<select name="departamento" id="departamento" class="input-large">
+							<option value="Comercial">Comercial</option>
+							<option value="Atendimento">Atendimento</option>
+							<option value="Recepção">Recepção</option>
+							<option value="Financeiro">Financeiro</option>
+							<option value="Ouvidoria">Ouvidoria</option>
+						</select>
+					</div>
+					<br>
+
+					<div>
+						<label for="nome" class="label-bold">Nome</label>
+						<div>
+							<input type="text" name="nome" id="nome" class="input-large">
+						</div>
+					</div>
+					<br>
+
+					<div>
+						<label for="empresa" class="label-bold">Empresa</label>
+						<div>
+							<input type="text" name="empresa" id="empresa" class="input-large">
+						</div>
+					</div>
+					<br>
+
+					<div>
+						<label for="email" class="label-bold">E-mail</label>
+						<div>
+							<input type="text" name="email" id="email" class="input-large">
+						</div>
+					</div>	
+					<br>
+
+					<div>
+						<label for="assunto" class="label-bold">Assunto</label>
+						<div>
+							<select name="assunto" id="assunto" class="input-large">
+								<option value="Dúvida">Dúvida</option>
+								<option value="Elogio">Elogio</option>
+								<option value="Reclamacão">Reclamacão</option>
+								<option value="Sugestão">Sugestão</option>
+								<option value="Outro">Outro</option>
+							</select>
+						</div>
+					</div>	
+					<br>
+
+					<div>
+						<label for="texto" class="label-bold">Mensagem</label>
+						<div>
+							<textarea name="mensagem" id="texto" rows="10" cols="90">
+								
+							</textarea>
+						</div>
+					</div>			
+				</form>
+				<input type="submit" name="enviar" class="botao">
+			</section>
+
+			<aside id="content-right">
+				<h3 class="text-prenchido">Contatos</h3>
+					<p>
+						Comercial   | (85) 4034.0730<br>
+						Atendimento | (85) 3028.8111<br>
+						Recepção    | (85) 3033.8301<br>
+						Financeiro  | (85) 4011.3456<br>
+						Ouvidoria   | (85) 4011.3098<br>
+					</p>
+
+					<p>
+						<b>NÚMERO ÚNICO (Atendimento Choice):<br>
+						4062 - 0720 - Valor de uma ligação local (*)</b><br>
+					</p>
+					
+					<p>
+						<b>(*) Cidades que contam com este benefício:</b><br>
+						São Paulo, Campinas,Rio de Janeiro, Vitória,<br>
+						 Belo Horizonte,Curitiba, Florianópolis, Porto Alegre,<br>
+						 Brasília, Goiânia, Palmas, Campo Grande, Cuiabá,<br> 
+						 Rio Branco, Porto Velho, Salvador, Recife e João Pessoa.<br>
+					</p>
+
+				<h3 class="text-prenchido">Endereço</h3>
+				<div>
+					<section id="cidade-esquerda">
+						FORTALEZA<br>
+						Av. Washigton Soares 800,<br>
+						Edson Queiroz / Fortaleza - CE<br>
+						CEP: 60811 - 110<br>
+
+						PABX: (85) 6011-0000<br>
+						<hr>
+						<a href="https://www.google.com.br/maps/place/UNI7+-+Centro+Universit%C3%A1rio+7+de+Setembro/@-3.7710272,-38.4858382,788m/data=!3m2!1e3!4b1!4m5!3m4!1s0x7c745fefe74c177:0x3d5127cdeb3dde1d!8m2!3d-3.7710272!4d-38.4836495" target="_blank">
+						 <button class="botao">Ver no mapa</button></a>
+					</section>
+					<aside id="cidade-direita">
+						SÃO PAULO<br>
+	         			Rua Camara Raimundo, 59<br>
+						Dantas - Bela Vista / São Paulo - SP<br>
+						CEP: 6122 - 110<br>
+
+						PABX: (11) 1221-0000<br>
+						<hr>
+						<a href="https://www.google.com.br/maps/place/UNI7+-+Centro+Universit%C3%A1rio+7+de+Setembro/@-3.7710272,-38.4858382,788m/data=!3m2!1e3!4b1!4m5!3m4!1s0x7c745fefe74c177:0x3d5127cdeb3dde1d!8m2!3d-3.7710272!4d-38.4836495" target="_blank">
+						<button class="botao">Ver no mapa</button></a>
+					</aside>
+				</div>
+			</aside>
+		</div>
+		<footer id="rodape">
+			<p>Copyright © Choice - Todos os direitos reservados - Powered by Hamilton e Fernando Igor</p>
+		</footer>	
+	</div>
+</body>
+</html>

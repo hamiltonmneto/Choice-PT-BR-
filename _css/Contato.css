@@ -1,0 +1,125 @@
+/*FORMATAÇÃO DO MENU*/
+body {
+  margin: 0px;
+}
+nav {
+  padding: 24px;
+  text-align: right;
+  font-family: Raleway;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.container{
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: auto;
+  padding-right: auto;
+}
+
+.container {
+    width: 1347px;
+}
+
+#logo{
+ float: left;
+ position: relative;
+ bottom: 30px;
+}
+
+#menu {
+  background: #3fa46a;
+}
+
+#menu li{
+  list-style: none;
+  display: inline-block;
+  text-align: right;
+  padding: 15px 0;
+  margin: 0 20px;
+}
+
+.link{
+  transition: 0.4s ease;
+  background: #3fa46a;
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  border-top: 4px solid #3fa46a;
+  border-bottom: 4px solid #3fa46a;
+  padding: 20px 0;
+}
+.link:hover {
+  border-top: 4px solid #ffffff;
+  border-bottom: 4px solid #ffffff;
+  padding: 6px 0; 
+}
+
+
+#header{
+	
+	width: 450px;
+	position: relative;
+}
+
+#header h2{
+	text-align: center;
+	margin-right: 200px;
+}
+
+
+section#content-left{
+	display: block;
+	width: 660px;
+	float: left;
+	padding: 10px;
+}
+
+aside#content-right{
+	display: block;
+	width: 550px;
+	float: right;
+	padding: 10px;
+	padding-bottom: 30px;
+}
+
+.text-prenchido{
+	padding: 10px;
+	background: grey;
+	color: white;
+}
+
+section#cidade-esquerda{
+	display: block;
+	width: 230px;
+	float: left;
+}
+
+section#cidade-direita{
+	display: block;
+	width: 230px;
+	float: right;
+}
+
+.input-large{
+	width: 650px;
+}
+
+.botao{
+	padding: 10px;
+}
+
+
+footer#rodape{
+	clear: both;
+	margin: 300px -8px 0px -8px;
+	margin-bottom: -10px;
+	background: #3fa46a;
+	text-align: center;
+	padding: 10px;
+}
+
+footer#rodape p{
+  font-size: 15px;
+  font-family: Raleway;
+  color: #ffffff;
+}
